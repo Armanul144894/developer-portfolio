@@ -5,6 +5,9 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 30px;
+}
 span{
     color: orange;
 }
@@ -46,4 +49,27 @@ span{
 .experience-area{
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
+    background-position: left;
+    padding-bottom: 20px;
+}
+.exp-items {
+    width: 40%;
+    padding-left: 2%;
+    padding-right: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 5px;
+    text-align: justify;
+    box-shadow: 10px 10px 5px lightblue;
+    
+}
+#full-stack-developer{
+    border-left: 8px solid tomato;
+}
+#junior-developer{
+    border-left: 8px solid blue;
+}
+footer p{
+    text-align: center;
+    color: gray;
 }
